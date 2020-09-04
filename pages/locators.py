@@ -17,3 +17,9 @@ class ProductPageLocators ():
 
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    BASKET_LINK = (By.CSS_SELECTOR, ".page_inner a.btn")
+
+
+class BasketPageLocators():
+    CHECKOUT_BUTTON = (By.CSS_SELECTOR, "btn-block")
+    EMPTY_MESSAGE = (By.CSS_SELECTOR, "#content_inner p")
