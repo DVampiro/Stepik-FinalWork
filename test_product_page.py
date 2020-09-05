@@ -1,8 +1,8 @@
 import pytest
 from time import time
-from pages.product_page import ProductPage
-from pages.basket_page import BasketPage
-from pages.login_page import LoginPage
+from .pages.product_page import ProductPage
+from .pages.basket_page import BasketPage
+from .pages.login_page import LoginPage
 
 
 link_product = 'http://selenium1py.pythonanywhere.com/en-gb/catalogue/the-shellcoders-handbook_209/'
